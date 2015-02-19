@@ -1,0 +1,15 @@
+node_modules/*
+npm-debug.log
+
+# ignore various IDE project files and folders
+.idea/
+.buildpath
+.project
+.settings/
+nbproject/
+
+# ignore mac files
+.DS_Store
+
+!.gitkeep
+!node_modules/build-tools

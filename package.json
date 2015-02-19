@@ -1,0 +1,22 @@
+{
+  "name": "pleeease-sm",
+  "version": "0.0.1",
+  "description": "Source maps test case for pleeease",
+  "private": true,
+  "repository": "https://github.com/christianseel/pleeease-sm",
+  
+  "dependencies": {
+    "rimraf": "2.2.x",
+    "pleeease": "3.x.x",
+    "node-sass": "2.x.x",
+    "autoprefixer": "4.0.x",
+    "cli-color": "0.x.x",
+    "optimist": "x.x.x"
+  },
+  
+  "scripts": {
+    "clean": "rimraf assets/tpl/dist/*",
+    
+    "build": "node node_modules/build-tools/index.js --path \"assets/tpl/sources/scss/\" --ext \"scss\" --outputDir \"assets/tpl/dist/\" --outputStyle \"compressed\""
+  }
+}

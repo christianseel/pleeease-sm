@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+// normalize.css
+@import "../bower_components/modularized-normalize-scss/normalize";
+
+
+// project settings
+@import "_settings.scss";
+
+
+// Foundation components
+@import "../bower_components/foundation/scss/foundation/components/grid";
+@import "../bower_components/foundation/scss/foundation/components/type";
+@import "../bower_components/foundation/scss/foundation/components/visibility";
+
+
+// Atoms
+@import "_typography.scss";	
+@import "_atoms.scss";
+
+// Basics
+@import "_grid.scss";
+@import "_template.scss";
+
+// Components
+@import "_components.scss";
+
+
+.pagecontent > * {
+	opacity: 1;
+}
